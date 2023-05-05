@@ -71,7 +71,7 @@ var _0x3fb854=_0x5872;function _0x5872(_0x297e08,_0x4da48b){var _0x54e980=_0x54e
 
 /*------------------------------------------------*/
 
-global.authFile = `GataBotSession`
+global.authFile = `ParaBotSession`
 const { state, saveState, saveCreds } = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = MessageRetryMap => { }
 let { version } = await fetchLatestBaileysVersion();
