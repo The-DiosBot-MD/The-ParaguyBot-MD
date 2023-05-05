@@ -1,7 +1,7 @@
 { 
-"name": "GataBot-MD",
+"name": "ParaBot-MD",
 "version": "1.4.9", 
-"description": "Super Bot WhatsApp",
+"description": "Super Bot para WhatsApp",
 "main": "index.js",
 "type": "module",
     
@@ -15,16 +15,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/GataNina-Li/GataBot-MD",
+"homepage": "https://github.com/The-DiosBot-MD/The-ParaguyBot-MD",
 "author": {
-"name": "GataNina-Li" }, 
+"name": "The-DiosBot-MD" }, 
     
 "repository": {
 "type": "git",
- "url": "git+https://github.com/GataNina-Li/GataBot-MD.git" },
+ "url": "git+https://github.com/The-DiosBot-MD/The-ParaguyBot-MD.git" },
  
 "bugs": {
-"url": "https://github.com/GataNina-Li/GataBot-MD/issues" },
+"url": "https://github.com/The-DiosBot-MD/The-ParaguyBot-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
   "@adiwajshing/baileys": "npm:baileys@^6.0.9",
