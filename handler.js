@@ -1176,11 +1176,11 @@ function _0x1ce7(){const _0xac1ac2=['212872fjshDh','17320yUXgkp','6019568oxJfgD'
             if (!['unbanuser.js', 'inv.js', 'link.js', 'creator.js', 'profile.js'].includes(name) && user && user.banned && !isROwner) {
                     if (!opts['msgifbanned']) m.reply(`❰ ⚠️ ❱ *ESTAS BANEADO/A* ❰ ⚠️ ❱ ${user.bannedReason ? `\n*Motivo:* *${user.bannedReason}*` : ''}
 
-*👉 Puedes contactar a la propietaria del Bot si crees que se trata de un error (TENER PRUEBAS) para tratar el motivo de tú desbaneo*
+*👉 Puedes contactar a la propietario del Bot si crees que se trata de un error (TENER PRUEBAS) para tratar el motivo de tú desbaneo*
 
 👉 ${global.asistencia}
-👉 wa.me/5492266466080
-👉 Wa.me/5214531173598
+👉 wa.me/595994836199
+👉 Wa.me/595994825505
 👉 ${global.ig}
 `.trim())
                         return
@@ -1237,7 +1237,7 @@ function _0x1ce7(){const _0xac1ac2=['212872fjshDh','17320yUXgkp','6019568oxJfgD'
                     m.reply('Exp limit') // Hehehe
                 else               
                 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-                    this.reply(m.chat, `🐈 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎`, m)
+                    this.reply(m.chat, ` NO TIENE PARA COINS`, m)
                     continue     
 		}
 			
@@ -1307,7 +1307,7 @@ function _0x1ce7(){const _0xac1ac2=['212872fjshDh','17320yUXgkp','6019568oxJfgD'
                         m.reply(+m.limit + lenguajeGB.smsCont8())
                 }
                  if (m.money)
-                        m.reply(+m.money + ' 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎 🐱 𝙐𝙎𝘼𝘿𝙊(𝙎)')
+                        m.reply(+m.money + ' PARACOINS  𝙐𝙎𝘼𝘿𝙊(𝙎)')
               
                 break
             }
