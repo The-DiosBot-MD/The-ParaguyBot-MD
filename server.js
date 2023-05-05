@@ -33,6 +33,7 @@ event2.emit(prefix + event, ...args)
 }
 return {
 unpipeEmit() {
+  
 event.emit = old
 }}}
 
